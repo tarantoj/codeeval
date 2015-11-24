@@ -4,7 +4,7 @@ void fizzbuzz(int x, int y, int n)
 {
 	int i;
 
-	for (i = 1; i < n; i++) {
+	for (i = 1; i <= n; i++) {
 		if (!(i % x) && !(i % y)) {
 			printf("FB ");
 		} else if (!(i % x)) {
